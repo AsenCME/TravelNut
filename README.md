@@ -4,9 +4,11 @@ We are nuts for travel.
 
 ## Idea
 
-Write out your travel bucket list and get trip suggestions. Check off all your destinations. Complete fun scavenger hunts and travel challenges. Compete with your friends.
+Write out your travel bucket list and get trip suggestions. Check off all your destinations. Complete fun scavenger hunts and travel challenges. Compete with your friends. Let the app to guide you through visiting all of them.
 
-Imagine all the places that you want to go to in your lifetime. With our app you can travel all around the globe and complete scavenger hunts, solve puzzles and compete with friends.
+## Inspiration
+
+We want to upgrade travel. We want to create a new way of experiencing vacations.
 
 ## Implementation
 
