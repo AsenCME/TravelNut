@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Travel Nut</title>
+        <meta name="description" content="We are nuts about travel."" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles.css" />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="fullpage.css" />
+    </head>
+
+    <body>
+        <!-- <div class="container">
+        <div class="nav-wrapper">
+            <div class="center">
+                <h1>Travel Nut</h1>
+                <h2>We are nuts about TRAVEL!</h2>
+            </div>
+        </div>
+
+    <div class="content-wrapper">
+        <div class="supporting-topics-wrapper">
+
+            <div class="supporting-topic-wrapper">
+                <div class="topic-img-background" style="background-image:url(images/hotspots.jpg)"></div>
+            
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper">
+                        IDEA
+                    </div>
+
+                    <div class="subtitle">
+                        Write out your travel bucket list and get trip suggestions. Check off all your destinations. Complete fun scavenger
+                        hunts and travel challenges. Compete with your friends. Let the app to guide you through visiting all of them.
+                    </div>
+                </div>
+            </div>                      
+    
+            <div class="supporting-topic-wrapper">
+                <div class="topic-img-background" style="background-image:url(images/code.jpg)"></div>
+        
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper">
+                        INSPIRATION
+                    </div>
+        
+                    <div class="subtitle">
+                        We want to upgrade travel. We want to create a new way of experiencing vacations.
+                    </div>
+                </div>
+            </div>
+    
+            <div class="supporting-topic-wrapper">
+                <div class="topic-img-background" style="background-image:url(images/travel.jfif)"></div>
+        
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper">
+                        IMPLEMENTATION
+                    </div>
+        
+                    <div class="subtitle">
+                        We have used Adobe XD to create the application interface. In the future we will use Flutter to implement the UI. As for
+                        the information inside the app, we plan on using available data sets which include travel tendencies of different
+                        control groups. Web scraping can be a powerful tool for us to find the best possible trips available, or even a
+                        partnership with an existing service that provides trip consulting.
+                    </div>
+                </div>
+            </div>
+    
+            <div class="supporting-topic-wrapper">
+                <div class="topic-img-background" style="background-image:url(images/challenges.jfif)"></div>
+        
+                <div class="img-text-wrapper">
+                    <div class="logo-wrapper">
+                        CHALLENGES
+                    </div>
+        
+                    <div class="subtitle">
+                        The biggest challenge was combining our separate skill-sets and narrowing our ideas down to something that maximizes our
+                        potential and showcases our talents.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+        <div id="fullpage">
+            <div class="section">
+                <div class="title">Travel Nut</div>
+                <div class="subtitle">We are nuts about travel</div>
+            </div>
+
+            <div class="section">
+                <div class="item-hero" style="background-image: url('images/travel.jfif');"></div>
+                <div class="item-title">Idea</div>
+                <div class="item-desc">
+                    Write out your travel bucket list and get trip suggestions. Check off all your
+                    destinations. Complete fun scavenger hunts and travel challenges. Compete with
+                    your friends. Let the app to guide you through visiting all of them.
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="item-hero" style="background-image: url('images/hotspots.jpg');"></div>
+                <div class="item-title">INSPIRATION</div>
+                <div class="item-desc">
+                    We want to upgrade travel. We want to create a new way of experiencing
+                    vacations.
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="item-hero" style="background-image: url('images/code.jpg');"></div>
+                <div class="item-title">IMPLEMENTATION</div>
+                <div class="item-desc">
+                    We have used Adobe XD to create the application interface. In the future we will
+                    use Flutter to implement the UI. As for the information inside the app, we plan
+                    on using available data sets which include travel tendencies of different
+                    control groups. Web scraping can be a powerful tool for us to find the best
+                    possible trips available, or even a partnership with an existing service that
+                    provides trip consulting.
+                </div>
+            </div>
+
+            <div class="section">
+                <div
+                    class="item-hero"
+                    style="background-image: url('images/challenges.jfif');"
+                ></div>
+                <div class="item-title">CHALLENGES</div>
+                <div class="item-desc">
+                    The biggest challenge was combining our separate skill-sets and narrowing our
+                    ideas down to something that maximizes our potential and showcases our talents.
+                </div>
+            </div>
+        </div>
+
+        <script src="fullpage.js"></script>
+        <script>
+            new fullpage("#fullpage", {
+                autoScrolling: true,
+                navigation: true,
+                keyboardScrolling: true,
+                controlArrows: true,
+            });
+        </script>
+    </body>
+</html>
